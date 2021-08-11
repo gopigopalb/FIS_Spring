@@ -5,11 +5,12 @@ import org.slf4j.LoggerFactory;
 
 public class Country {
 	private static final Logger LOGGER = LoggerFactory.getLogger(Country.class);
-	String code;
-	String name;
-	
+
+	private String code;
+	private String name;
+
 	public Country() {
-		LOGGER.debug("Inside country constructor");
+		LOGGER.debug("Inside Country Constructor");
 	}
 
 	public String getCode() {
